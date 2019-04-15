@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' type='text/css' href='/static/css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' href='/static/css/main.css'>
+    {% block head %}
+
+    {% endblock %}
+</head>
+
+<body>
+
+    <div id='header'>
+        <h1>Dex0510 App</h1>
+        {% block header %}
+
+        {% endblock %}
+    </div>
+
+
+    <div id='left'>
+        <hr>
+        {% block left %}
+
+        {% endblock %}
+    </div>
+
+    <div id='center'>
+        <hr>
+        {% block center %}
+
+        {% endblock %}
+    </div>
+
+
+    <div id='right'>
+        <hr>
+        {% block right %}
+
+        {% endblock %}
+    </div>
+
+    <div id='footer'>
+
+        {% block footer %}
+
+        {% endblock %}
+        <h3>We love Listen From you</h3>
+<h3>Contact Us at : </h3>
+<ul>
+    <li>Email: someone@something.com</li>
+    <li>Phone Number : 1234567890</li>
+    <li>Address: This is my address</li>
+</ul>
+
+        
+        <h2> Made by Dex0510 on Grras Tech.</h2>
+
+    </div>
+
+</body>
+
+
+</html>

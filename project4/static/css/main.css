@@ -1,0 +1,68 @@
+body { 
+    background-image: url("image/XD.jpg");
+    background-position: center;
+    background-size:cover;
+    margin:0px; 
+    padding: 0px;
+}
+
+#header { 
+    padding: 10px;
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    margin:0px; 
+     
+}
+
+#left { 
+    width: 25%; 
+    float: left;
+    margin:0px; 
+    
+}
+
+#center { 
+    text-align: center;
+    width: 50%; 
+    color: rgb(255, 255, 255);
+    float: left;
+    margin:0px; 
+    
+}
+#right { 
+    width: 25%;
+    float : left ;
+    margin:0px; 
+    
+}
+
+#footer { 
+    padding: 25px;
+    text-align: center;
+    width: 100%; 
+    clear: both;
+    margin:0px; 
+    color: white;
+}
+
+
+#login_form { 
+padding: 50px;
+}
+
+
+table { background-color: gray;
+        color: white;   
+    font-size: 35px;
+padding: 15px;}
+
+    tr { 
+        padding: 35px; 
+        border: 2px solid white;
+    }
+    td { 
+        padding: 15px;
+        border : 2px solid white;
+}

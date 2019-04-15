@@ -1,0 +1,30 @@
+s{% extends "base.html" %}
+
+{% block header %}
+
+<h2> Welcome to Home Page </h2>
+
+{% endblock %}
+
+
+
+{% block center %}
+
+{% if error %}
+<h1 style='color:red'> {{ error }}</h1>
+{% endif %}
+<div id='login_form'>
+    <form action="/login/" method="POST">
+        <p>Username : <input type="text" name='name' placeholder="eg. Sherlock" required> </p>
+        <p>Password : <input type="Password" name='password' placeholder="*****" required></p>
+        <p>Remember Me  <input type='checkbox'> </p>
+        <p>
+        <input type="submit" value='LOGIN'> &nbsp;&nbsp;&nbsp;&nbsp;
+        <button action='/signup/'>
+        <a href='/signup/' id='button'>SignUp</a>
+    </button>
+        </p>
+    </form>
+</div>
+
+{% endblock %}
